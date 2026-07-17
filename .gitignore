@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AWS Certificates — never commit these
+certs/
+*.pem
+*.key
+*.crt
+
+# Local configuration
+config.py
+config_local.py
+.env
+
+# Logs
+*.log
+
+# Build
+dist/
+build/
